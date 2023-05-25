@@ -14,6 +14,8 @@ public class Main {
     public static void task1 () {
         System.out.println("Задача1");
 
+        int double_Tree = 1;
+
         byte a = 5;
         System.out.println("Значение переменной с типом byte равно " + a);
         short b = 150;
@@ -124,8 +126,8 @@ public class Main {
         System.out.println(numberOfDays1 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по " + weightGr1 + " грамм");
         int numberOfDays2 = generalWeightGr / weightGr2;
         System.out.println(numberOfDays2 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по " + weightGr2 + " грамм");
-        int averageDays = (numberOfDays2 + numberOfDays1) / 2;
-        System.out.println(averageDays + " день в среднем потребуется для достижения результата");
+        float averageDays = generalWeightGr / ((weightGr1 + weightGr2) / 2f);
+        System.out.println((int)averageDays + " дней в среднем потребуется для достижения результата");
 
 
     }
