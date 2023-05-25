@@ -14,8 +14,6 @@ public class Main {
     public static void task1 () {
         System.out.println("Задача1");
 
-        int double_Tree = 1;
-
         byte a = 5;
         System.out.println("Значение переменной с типом byte равно " + a);
         short b = 150;
@@ -41,7 +39,8 @@ public class Main {
         short e = -159;
         short f = 27897;
         byte g = 67;
-        // выводить не нужно
+        System.out.println(a + "\n" + b + "\n" + c + "\n" + d + "\n" + e + "\n" + f + "\n" + g);
+        // выводить не обязательно
     }
     public static void task3 () {
         System.out.println("Задача3");
@@ -51,7 +50,7 @@ public class Main {
         byte classEkaterina = 30;
         short totalSheets = 480;
         int totalStudents = classLudmila + classAnna + classEkaterina;
-        int perStudent = 480 / totalStudents;
+        int perStudent = totalSheets / totalStudents;
         System.out.println("На каждого ученика расчитано " + perStudent + " листов бумаги");
 
     }
