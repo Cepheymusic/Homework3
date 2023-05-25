@@ -126,7 +126,7 @@ public class Main {
         int numberOfDays2 = generalWeightGr / weightGr2;
         System.out.println(numberOfDays2 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по " + weightGr2 + " грамм");
         float averageDays = generalWeightGr / ((weightGr1 + weightGr2) / 2f);
-        System.out.println((int)averageDays + " дней в среднем потребуется для достижения результата");
+        System.out.printf("%.2f дней в среднем потребуется для достижения результата \n", averageDays);
 
 
     }
